@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sim_1/new/RGB_LED_tb.v,1595829703,verilog,,,,RGB_LED_tb,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v,1595761789,verilog,,E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v,,Clk_Division,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division_0.v,1595761789,verilog,,E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/new/RGB_LED.v,,Clk_Division_0,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Driver_SK6805_0_1/sim/Driver_SK6805.v,1595761813,verilog,,E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Driver_SK6805_0_1/sim/Driver_SK6805_0.v,,Driver_SK6805,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Driver_SK6805_0_1/sim/Driver_SK6805_0.v,1595761813,verilog,,E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/ip/Clk_Division_0/sim/Clk_Division.v,,Driver_SK6805_0,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/new/Colorful_LED_Top.v,1595829341,verilog,,,,Colorful_LED_Top,,,,,,,,
+E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sources_1/new/RGB_LED.v,1595829855,verilog,,E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.srcs/sim_1/new/RGB_LED_tb.v,,RGB_LED,,,,,,,,

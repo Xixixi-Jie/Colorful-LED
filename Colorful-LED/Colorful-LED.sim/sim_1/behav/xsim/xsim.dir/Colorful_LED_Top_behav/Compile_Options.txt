@@ -1,0 +1,1 @@
+-wto "2dfb21cb99214591b84f9be187395620" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "Colorful_LED_Top_behav" "xil_defaultlib.Colorful_LED_Top" "xil_defaultlib.glbl" -log "elaborate.log" 

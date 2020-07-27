@@ -1,0 +1,77 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Jul 27 16:29:40 2020
+| Host         : DESKTOP-KV931QI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RGB_LED_control_sets_placed.rpt
+| Design       : RGB_LED
+| Device       : xc7s15
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    37 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      2 |            2 |
+|      3 |            1 |
+|      9 |            1 |
+|     10 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            3 |
+| No           | No                    | Yes                    |               3 |            3 |
+| No           | Yes                   | No                     |              64 |           16 |
+| Yes          | No                    | No                     |               2 |            1 |
+| Yes          | No                    | Yes                    |              19 |            9 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|       Clock Signal      |                Enable Signal                |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++-------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|  Clk_1KHz_div/inst/Clk  |                                             |                                        |                1 |              1 |
+|  Clk_1KHz_div/inst/Clk  | p_0_in                                      |                                        |                1 |              2 |
+|  clk_100MHz_IBUF_BUFG   |                                             |                                        |                2 |              2 |
+|  Clk_10MHz_div/inst/Clk |                                             | your_instance_name/inst/LED_IO_i_2_n_0 |                3 |              3 |
+|  Clk_10MHz_div/inst/Clk | your_instance_name/inst/Data_Cnt[8]_i_1_n_0 | your_instance_name/inst/LED_IO_i_2_n_0 |                4 |              9 |
+|  Clk_10MHz_div/inst/Clk | your_instance_name/inst/Send_Cnt[9]_i_1_n_0 | your_instance_name/inst/LED_IO_i_2_n_0 |                5 |             10 |
+|  clk_100MHz_IBUF_BUFG   |                                             | Clk_1KHz_div/inst/Count[0]_i_1_n_0     |                8 |             32 |
+|  clk_100MHz_IBUF_BUFG   |                                             | Clk_10MHz_div/inst/Count[0]_i_1_n_0    |                8 |             32 |
++-------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+
+
