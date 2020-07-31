@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="Driver_SK6805_0_synth_1" LaunchDir="E:/Grade4th/XilinxSchool/Project/Colorful-LED/Colorful-LED/Colorful-LED.runs/Driver_SK6805_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-	<Parameters>
-		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
-	</Parameters>
-</Runs>
-
